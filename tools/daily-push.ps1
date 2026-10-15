@@ -24,6 +24,17 @@ $Topics = [ordered]@{
     'PAW'              = 'a pet adoption website'
 }
 
+# A file is pushed only if it has real content: at least 100 characters once comments and spaces are
+# removed, and for a page, something inside <body> (an HTML skeleton alone is not pushed).
+function Has-Code($path) {
+    $t = Get-Content $path -Raw -ErrorAction SilentlyContinue
+    if (-not $t) { return $false }
+    $t = [regex]::Replace($t, '(?s)<!--.*?-->|/\*.*?\*/', '')
+    if (($t -replace '\s', '').Length -lt 100) { return $false }
+    if ($path -match '\.html?$' -and $t -match '(?is)<body[^>]*>(.*)</body>') { return [bool](($Matches[1] -replace '\s', '').Length) }
+    return $true
+}
+
 function Log($msg) {
     $line = "{0:yyyy-MM-dd HH:mm:ss}  {1}" -f (Get-Date), $msg
     Add-Content -Path $Log -Value $line -Encoding utf8
@@ -62,7 +73,7 @@ try {
     $candidates = @(foreach ($s in $Sources) {
         if (-not (Test-Path $s)) { continue }
         Get-ChildItem -Path $s -Recurse -File | Where-Object {
-            $_.Extension -match '^\.(html|htm|css)$' -and $_.FullName -notmatch $SkipRe
+            $_.Extension -match '^\.(html|htm|css)$' -and $_.FullName -notmatch $SkipRe -and (Has-Code $_.FullName)
         }
     })
     $candidates = @($candidates | Where-Object { $f = $_.FullName; -not ($done | Where-Object { $_.Split('|')[1] -eq $f }) })
