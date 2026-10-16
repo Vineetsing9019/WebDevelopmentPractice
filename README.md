@@ -10,3 +10,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-15 | [DISPLAY.HTML](daily/2026-10-15/chapter%202/DISPLAY.HTML) | Learning HTML and CSS |
 | 2026-10-15 | [creating-table.html](daily/2026-10-15/ONLY%20ASSIGNMENTS/creating-table.html) | Learning web design assignments |
 | 2026-10-15 | [pets.html](daily/2026-10-15/WD%20FINAL%20PRO/pets.html) | Learning my final web design project |
+| 2026-10-16 | [homepage2.html](daily/2026-10-16/chapter%202/ASSIGNMENTS/homepage2.html) | Learning web design assignments |
