@@ -14,3 +14,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-16 | [itvedeant-logoblur.html](daily/2026-10-16/ONLY%20ASSIGNMENTS/itvedeant-logoblur.html) | Learning web design assignments |
 | 2026-10-16 | [bootstrap1.html](daily/2026-10-16/chapter%202/DEFINATION.ALL/bootstrap-demo/bootstrap1.html) | Learning Bootstrap |
 | 2026-10-16 | [index.html](daily/2026-10-16/chapter%202/index.html) | Learning HTML and CSS |
+| 2026-10-17 | [index.html](daily/2026-10-17/chapter%202/DEFINATION.ALL/bootstrap-demo/index.html) | Learning Bootstrap |
