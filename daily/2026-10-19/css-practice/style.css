@@ -1,0 +1,18 @@
+﻿/* Learning CSS (stylesheet) - practice file from css-practice, pushed 2026-10-19 */
+#p2 {
+    background-color: chartreuse;
+    color: brown;
+}
+
+body {
+    background-color: black;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.even{
+    color: chartreuse;
+}
+.odd {
+    color: brown;
+}

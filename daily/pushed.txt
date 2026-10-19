@@ -11,3 +11,4 @@
 2026-10-17|C:\Users\Vineet\OneDrive\Desktop\chapter 2\ASSIGNMENTS\ASSIGNMENTS.HTML
 2026-10-17|C:\Users\Vineet\OneDrive\Desktop\chapter 2\css.all\new-assign.html
 2026-10-19|C:\Users\Vineet\OneDrive\Desktop\chapter 2\css.all\grid2.html
+2026-10-19|C:\Users\Vineet\OneDrive\Desktop\css-practice\style.css

@@ -19,3 +19,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-17 | [ASSIGNMENTS.HTML](daily/2026-10-17/chapter%202/ASSIGNMENTS/ASSIGNMENTS.HTML) | Learning web design assignments |
 | 2026-10-17 | [new-assign.html](daily/2026-10-17/chapter%202/css.all/new-assign.html) | Learning CSS |
 | 2026-10-19 | [grid2.html](daily/2026-10-19/chapter%202/css.all/grid2.html) | Learning CSS (grid layout) |
+| 2026-10-19 | [style.css](daily/2026-10-19/css-practice/style.css) | Learning CSS (stylesheet) |
