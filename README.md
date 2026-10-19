@@ -22,3 +22,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-19 | [style.css](daily/2026-10-19/css-practice/style.css) | Learning CSS (stylesheet) |
 | 2026-10-19 | [index.html](daily/2026-10-19/css-practice/index.html) | Learning CSS |
 | 2026-10-19 | [CHAPTER3.HTML](daily/2026-10-19/chapter%202/CHAPTER3.HTML) | Learning HTML and CSS |
+| 2026-10-19 | [login.html](daily/2026-10-19/WD%20FINAL%20PRO/login.html) | Learning my final web design project (forms) |
