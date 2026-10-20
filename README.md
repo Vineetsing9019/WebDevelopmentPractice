@@ -27,3 +27,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-20 | [style.css](daily/2026-10-20/WD%20FINAL%20PRO/style.css) | Learning my final web design project (stylesheet) |
 | 2026-10-20 | [breakpointss.html](daily/2026-10-20/chapter%202/css.all/breakpointss.html) | Learning CSS (responsive breakpoints) |
 | 2026-10-20 | [STUDENT-PROFILE.HTML](daily/2026-10-20/ONLY%20ASSIGNMENTS/STUDENT-PROFILE.HTML) | Learning web design assignments |
+| 2026-10-20 | [grid-bootsrap.html](daily/2026-10-20/chapter%202/DEFINATION.ALL/bootstrap-demo/grid-bootsrap.html) | Learning Bootstrap (grid layout) |
