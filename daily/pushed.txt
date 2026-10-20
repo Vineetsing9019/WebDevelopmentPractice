@@ -17,3 +17,4 @@
 2026-10-19|C:\Users\Vineet\OneDrive\Desktop\WD FINAL PRO\login.html
 2026-10-20|C:\Users\Vineet\OneDrive\Desktop\PAW\sticky.html
 2026-10-20|C:\Users\Vineet\OneDrive\Desktop\WD FINAL PRO\style.css
+2026-10-20|C:\Users\Vineet\OneDrive\Desktop\chapter 2\css.all\breakpointss.html

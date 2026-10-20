@@ -25,3 +25,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-19 | [login.html](daily/2026-10-19/WD%20FINAL%20PRO/login.html) | Learning my final web design project (forms) |
 | 2026-10-20 | [sticky.html](daily/2026-10-20/PAW/sticky.html) | Learning a pet adoption website |
 | 2026-10-20 | [style.css](daily/2026-10-20/WD%20FINAL%20PRO/style.css) | Learning my final web design project (stylesheet) |
+| 2026-10-20 | [breakpointss.html](daily/2026-10-20/chapter%202/css.all/breakpointss.html) | Learning CSS (responsive breakpoints) |
