@@ -36,3 +36,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-22 | [register.html](daily/2026-10-22/WD%20FINAL%20PRO/register.html) | Learning my final web design project (forms) |
 | 2026-10-22 | [position.html](daily/2026-10-22/PAW/position.html) | Learning a pet adoption website |
 | 2026-10-22 | [registerr.html](daily/2026-10-22/ONLY%20ASSIGNMENTS/registerr.html) | Learning web design assignments (forms) |
+| 2026-10-23 | [page.html](daily/2026-10-23/ONLY%20ASSIGNMENTS/page.html) | Learning web design assignments |

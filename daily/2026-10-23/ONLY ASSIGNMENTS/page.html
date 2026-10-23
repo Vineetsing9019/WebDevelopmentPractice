@@ -1,0 +1,44 @@
+﻿<!-- Learning web design assignments - practice file from ONLY ASSIGNMENTS, pushed 2026-10-23 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Image</title>
+
+    <style>
+        img{
+            width: 500px;
+            height: 500px;
+        }
+
+        .img2{
+            display: none;
+        }
+
+        @media screen and (max-width:700px){
+
+            .img1{
+                display: none;
+            }
+
+            .img2{
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Responsive Image </h2>
+
+    
+    <img src="/itv-jpg.svg" class="img1" alt="Image 1">
+
+    
+    <img src="download.jpg" class="img2" alt="Image 2" >
+
+</body>
+</html>
+
+
+
