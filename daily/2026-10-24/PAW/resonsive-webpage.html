@@ -1,0 +1,75 @@
+﻿<!-- Learning a pet adoption website - practice file from PAW, pushed 2026-10-24 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 300px;
+            border: 4px solid red;
+            padding: 8px;
+            box-sizing: content-box;
+        }
+
+        .product {
+            height: 200px;
+            width: 25%;
+            border: 2px solid green;
+            box-sizing: border-box;
+            float: left;
+
+        }
+
+        @media screen and (max-width:500px) {
+            .mobile {
+                width: 100%;
+            }
+
+        }
+
+        @media screen and (min-width:501px) and (max-width:900px) {
+            .ipad {
+                width: 50%;
+
+            }
+        }
+
+        @media screen and (min-width:901px) {
+            .desktop {
+                width: 25%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- box sizing : css prop -->
+    <div class="box">
+        checking box size
+    </div>
+
+    <div class="product mobile ipad dekstop">box 1</div>
+    <div class="product mobile ipad dekstop">box 2</div>
+    <div class="product mobile ipad dekstop">box 3</div>
+    <div class="product mobile ipad dekstop">box 4</div>
+    <div>
+    <!-- <img src="allptes.jpg" width="100%" > -->
+<picture>
+    <source srcset="Dog-labrdor-breeds.jpg" media="(min-width:500px)" width="100%">
+    <img src="allpets2.jpg" alt="" width="100%">
+
+
+    <!-- <img src="Dog-labrdor-breeds.jpg" alt="image not available"> -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi impedit debitis eaque vitae expedita et explicabo?
+        Dolor minima rem consequatur molestias non eos amet, blanditiis officiis, delectus cupiditate, necessitatibus
+        hic inventore libero ipsam. Dolorem, rem praesentium doloribus ab at deserunt tempore vero! Ipsam consectetur
+        explicabo nemo velit non enim mollitia?</p>
+    </picture>   
+    </div>
+</body>
+
+</html>
