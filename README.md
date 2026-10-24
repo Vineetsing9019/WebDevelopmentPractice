@@ -41,3 +41,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-23 | [media.html](daily/2026-10-23/PAW/media.html) | Learning a pet adoption website |
 | 2026-10-23 | [practice.html](daily/2026-10-23/chapter%202/ALLPRACTICE.HTML/practice.html) | Learning HTML and CSS |
 | 2026-10-24 | [resonsive-webpage.html](daily/2026-10-24/PAW/resonsive-webpage.html) | Learning a pet adoption website |
+| 2026-10-24 | [PSEUDO-CLASSES.HTML](daily/2026-10-24/chapter%202/css.all/PSEUDO-CLASSES.HTML) | Learning CSS (pseudo-classes) |
