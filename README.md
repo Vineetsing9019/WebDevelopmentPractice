@@ -47,3 +47,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-25 | [emoji.html](daily/2026-10-25/WD%20FINAL%20PRO/emoji.html) | Learning my final web design project |
 | 2026-10-25 | [contact.html](daily/2026-10-25/WD%20FINAL%20PRO/contact.html) | Learning my final web design project (forms) |
 | 2026-10-25 | [registerpseudo.html](daily/2026-10-25/chapter%202/css.all/registerpseudo.html) | Learning CSS (pseudo-classes) |
+| 2026-10-25 | [css.html](daily/2026-10-25/chapter%202/css.html) | Learning HTML and CSS |
