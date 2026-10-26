@@ -42,3 +42,4 @@
 2026-10-25|C:\Users\Vineet\OneDrive\Desktop\chapter 2\css.html
 2026-10-26|C:\Users\Vineet\OneDrive\Desktop\WD FINAL PRO\index.html
 2026-10-26|C:\Users\Vineet\OneDrive\Desktop\ONLY ASSIGNMENTS\loginform.html
+2026-10-26|C:\Users\Vineet\OneDrive\Desktop\chapter 2\css.all\grid-offline.html
