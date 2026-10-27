@@ -52,3 +52,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-26 | [loginform.html](daily/2026-10-26/ONLY%20ASSIGNMENTS/loginform.html) | Learning web design assignments (forms) |
 | 2026-10-26 | [grid-offline.html](daily/2026-10-26/chapter%202/css.all/grid-offline.html) | Learning CSS (grid layout) |
 | 2026-10-26 | [loginn.html](daily/2026-10-26/ONLY%20ASSIGNMENTS/loginn.html) | Learning web design assignments (forms) |
+| 2026-10-27 | [homepseudo.html](daily/2026-10-27/chapter%202/css.all/homepseudo.html) | Learning CSS (pseudo-classes) |
