@@ -1,0 +1,148 @@
+﻿<!-- Learning Bootstrap - practice file from ONLY ASSIGNMENTS, pushed 2026-10-27 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>navbar assignment</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .sidebar a {
+      display: block;
+      margin: 12px 0;
+      color: black;
+    }
+
+    .sidebar h5 {
+      color: blue;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    hr {
+      width: 80%;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand text-primary fw-bold" href="#">ITCART</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+
+        <ul class="navbar-nav me-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              Account
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Login</a></li>
+              <li><a class="dropdown-item" href="#">Register</a></li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search site">
+          <button class="btn btn-primary">Search</button>
+        </form>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <br>
+
+
+  <div class="container">
+
+    <div class="row">
+
+
+      <div class="col-md-3 sidebar">
+
+        <h5>Categories Available</h5>
+        <hr>
+
+        <a href="#">Laptops</a>
+        <a href="#">Personal Computers</a>
+        <a href="#">Tablets</a>
+        <a href="#">Headphones</a>
+
+        <br>
+
+        <h5>Reviews</h5>
+        <hr>
+
+        <a href="#">For Services</a>
+        <a href="#">For Products</a>
+        <a href="#">For Consultation</a>
+
+      </div>
+
+
+      <div class="col-md-9 content">
+
+        <h2>
+          India's Leading and Trusted tech paradise -
+          <span class="text-primary">ITCART</span>
+        </h2>
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam sequi quos maxime aut neque commodi
+          fugit omnis assumenda vel velit, rem dolores tempora excepturi rerum vero repellendus quod mollitia officiis
+          provident perspiciatis tenetur eveniet. Animi nesciunt blanditiis quidem accusamus? Beatae voluptates rem
+          praesentium consectetur modi odio repellat explicabo voluptatibus?</p>
+
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur natus debitis dignissimos, dicta labore
+          est fugiat amet, adipisci dolorem provident, mollitia reiciendis quae rem possimus in deserunt harum placeat
+          minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatum vero atque at eius temporibus inventore a vitae saepe ipsum.
+        </p>
+        <br>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorem magnam unde, tenetur autem eum magni, odio doloribus beatae quae mollitia! Adipisci culpa excepturi voluptas nemo consectetur laboriosam, explicabo eligendi, optio iure, quod alias? Natus ducimus ut error necessitatibus aliquam?</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
