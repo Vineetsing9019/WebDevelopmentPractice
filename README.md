@@ -54,3 +54,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-26 | [loginn.html](daily/2026-10-26/ONLY%20ASSIGNMENTS/loginn.html) | Learning web design assignments (forms) |
 | 2026-10-27 | [homepseudo.html](daily/2026-10-27/chapter%202/css.all/homepseudo.html) | Learning CSS (pseudo-classes) |
 | 2026-10-27 | [bootstrap.html](daily/2026-10-27/ONLY%20ASSIGNMENTS/bootstrap.html) | Learning Bootstrap |
+| 2026-10-27 | [student-signin.html](daily/2026-10-27/ONLY%20ASSIGNMENTS/student-signin.html) | Learning web design assignments |
