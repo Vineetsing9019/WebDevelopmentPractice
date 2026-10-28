@@ -50,3 +50,4 @@
 2026-10-27|C:\Users\Vineet\OneDrive\Desktop\ONLY ASSIGNMENTS\sticky-div.html
 2026-10-28|C:\Users\Vineet\OneDrive\Desktop\ONLY ASSIGNMENTS\indexx.html
 2026-10-28|C:\Users\Vineet\OneDrive\Desktop\ONLY ASSIGNMENTS\loginlast_assignment.html
+2026-10-28|C:\Users\Vineet\OneDrive\Desktop\chapter 2\css.all\loginpseudo.html
