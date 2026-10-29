@@ -61,3 +61,4 @@ HTML, CSS and Bootstrap practice: page layouts, forms, Flexbox, responsive desig
 | 2026-10-28 | [loginpseudo.html](daily/2026-10-28/chapter%202/css.all/loginpseudo.html) | Learning CSS (pseudo-classes) |
 | 2026-10-28 | [aboutpseudo.html](daily/2026-10-28/chapter%202/css.all/aboutpseudo.html) | Learning CSS (pseudo-classes) |
 | 2026-10-29 | [shadow.html](daily/2026-10-29/chapter%202/css.all/shadow.html) | Learning CSS (box model and shadows) |
+| 2026-10-29 | [boxstyle.html](daily/2026-10-29/chapter%202/boxstyle.html) | Learning HTML and CSS (box model and shadows) |

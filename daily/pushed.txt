@@ -53,3 +53,4 @@
 2026-10-28|C:\Users\Vineet\OneDrive\Desktop\chapter 2\css.all\loginpseudo.html
 2026-10-28|C:\Users\Vineet\OneDrive\Desktop\chapter 2\css.all\aboutpseudo.html
 2026-10-29|C:\Users\Vineet\OneDrive\Desktop\chapter 2\css.all\shadow.html
+2026-10-29|C:\Users\Vineet\OneDrive\Desktop\chapter 2\boxstyle.html
