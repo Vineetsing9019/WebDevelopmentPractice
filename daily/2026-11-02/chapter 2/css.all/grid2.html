@@ -1,0 +1,75 @@
+﻿<!-- Learning CSS (grid layout) - practice file from chapter 2, pushed 2026-10-19 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.outer {
+
+border: 2px salmon;
+display: grid;
+grid-template-rows: 80px 400px 300px;
+grid-template-columns: 200px 550px 550px;
+
+}
+
+
+.inner {
+
+    border: solid red;
+}
+
+.header {
+
+grid-row: 1;
+grid-column: 1/4;
+
+
+}
+
+.left {
+
+    grid-row: 2/4;
+    grid-column: 1/4;
+}
+
+.main {
+
+grid-row: 2;
+grid-column: 2/4;
+
+}
+
+.ch1 {
+
+grid-row: 3;
+columns: 2;
+
+
+}
+
+.ch2 {
+
+   grid-row: 3; 
+   grid-column: 3;
+}
+
+
+    </style>
+</head>
+
+<body>
+    
+<div class="outer">
+ <div class="inner header">Header</div>   
+<div class="inner left">Left Side Bar</div>
+<div class="inner main">Main Content</div>
+<div class="inner ch1">Child 1</div>
+<div class="inner ch2">Child 2</div>
+</div>
+
+</body>
+</html>
