@@ -1,0 +1,50 @@
+﻿<!-- Learning CSS (grid layout) - practice file from chapter 2, pushed 2026-10-26 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .outer{
+            border: 5px solid rgb(227, 125, 30);
+            height: 500px; 
+        }
+        .inner{
+            border: 2px solid rgb(61, 61, 196);
+            height: 300px;
+        }
+        .grandchild{
+            border: 2px sandybrown;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="outer row">
+        <div class="inner col-3">div 1</div>
+        <div class="inner col-3">div 2</div>
+        <div class="inner col-3">div 3</div>
+        <div class="inner col-3">div 4</div>
+    </div> -->
+    <!-- Nesting -->
+
+    
+    <div class="row outer">
+        <div class="col-3 inner">Div1</div>
+        <div class="col-3 inner">Div2</div>
+        <div class="col-3 inner">Div3</div>
+        <div class="col-3 inner">Nested
+            <div class="row">
+                <div class="grandchild col-6">G1</div>
+                <div class="grandchild col-6">G2</div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
