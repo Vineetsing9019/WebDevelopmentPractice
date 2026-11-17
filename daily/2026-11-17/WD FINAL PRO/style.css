@@ -1,0 +1,69 @@
+﻿/* Learning my final web design project (stylesheet) - practice file from WD FINAL PRO, pushed 2026-10-20 */
+body{
+    background:#f8f9fa;
+    font-family:Arial;
+}
+
+.hero{
+    height:90vh;
+    background:url("images/banner.jpg");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.form-box{
+    max-width:450px;
+    margin:80px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+}
+
+.pet-card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    transition:.3s;
+}
+
+.pet-card:hover{
+    transform:translateY(-8px);
+}
+
+.pet-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+body{
+    background:red;
+}
+.reason-form{
+    background:#0d6efd;
+    color:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.reason-form .form-control{
+    border-radius:10px;
+}
+
+.reason-form h2{
+    font-weight:bold;
+}
+
