@@ -1,0 +1,64 @@
+﻿<!-- Learning a pet adoption website - practice file from PAW, pushed 2026-10-23 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Adding audio</h3>
+    <!-- 1. adding mp3 audio  : it wont be visible on browser-->
+    <audio >
+        <source src="poem.mp3" type="audio/mp3" />
+    </audio>
+    <br>
+    <!-- 2. controls will dispaly it in browser with controls to start stop etc  -->
+    <audio controls>
+        <source src="poem.mp3" type="audio/mp3" />
+    </audio>
+    <br>
+    <!-- 3. loop will replay the same audio repeatedly  -->
+    <audio controls loop>
+        <source src="poem.mp3" type="audio/mp3" />
+    </audio>
+    <!-- using src instead of source tag :
+    This allows only 1 file to be added or referred. if its not supported by browser, 
+    this will not dispaly the audio -->
+    <audio src="poem.mp3"></audio>
+    <!-- source tag is preferred as we can add multiple source with different file  
+    here one by one 3 files will be checked . if 1st doesnt work, second, else third;
+    otherwise "This file is not suported by your browser" will be displayed
+
+    source tag works in fallback pattern -->
+    <audio >
+        <source src="poem.ogg" type="audio/ogg" />
+        <source src="poem.mpeg" type="audio/mpeg" />
+        <source src="poem.mp3" type="audio/mp3" />
+        This file is not suported by your browser
+    </audio>
+    <hr>
+    <h3>Adding video</h3>
+    <!-- here supported types are mp4/ogg/webm  -->
+    <!-- 1. controls not set, so just displays the image, cant start/stop video  -->
+    <video   height="100" width="250px" >
+        <source src="funny babies.mp4" type="video/mp4"/>
+    </video>
+    <!-- 2. with controls  -->
+    <video controls  height="100" width="250px"  >
+        <source src="funny babies.mp4" type="video/mp4"/>
+    </video>
+    <!-- 3. with autoplay  -->
+    <video controls  height="100" width="250px" autoplay  >
+        <source src="funny babies.mp4" type="video/mp4"/>
+    </video>
+    <!-- 4. with autoplay an muted  -->
+     <video controls  height="100" width="250px" autoplay muted >
+        <source src="funny babies.mp4" type="video/mp4"/>
+    </video>
+    <!-- 5. poster -- sets the poster for video, make sure autoplay is off  -->
+    <video controls  height="100" width="250px" muted poster="baby.jpg">
+        <source src="funny babies.mp4" type="video/mp4"/>
+    </video>
+</body>
+</html>
